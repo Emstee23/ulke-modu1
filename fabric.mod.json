@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ulke_modu",
+  "version": "${version}",
+  "name": "Ülke Modu",
+  "description": "Ülke kurma, claim, otomatik köy devletleri ve savaş sistemi.",
+  "authors": ["Kaptan"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "UlkeModu"
+    ],
+    "client": [
+      "UlkeModuClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
